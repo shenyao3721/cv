@@ -17,10 +17,10 @@ contact: #联系方式连接等3~5行
   icon: 'icons/phone.svg'
 - text: "puppet-nine"
   href: 'http://your-website.com'
-  icon: 'icons/weixin.svg'
+  icon: 'icons/phone.svg'
 - text: "961403901"
   href: 'https://github.com/NewFuture'
-  icon: "icons/qq.svg"
+  icon: "icons/phone.svg"
   attr: 'target="_blank"' #新标签页打开
   # - text: "地址"
   #   icon: "icons/location.svg"
