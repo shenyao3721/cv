@@ -15,12 +15,12 @@ contact: #联系方式连接等3~5行
 - text: "13810748776"
   href: 'tel:1234567890'
   icon: 'icons/phone.svg'
-- text: "your-website.com"
+- text: "weixin:puppet-nine"
   href: 'http://your-website.com'
-  icon: 'icons/web.svg'
-- text: "GitHubID"
+  icon: 'icons/weixin.svg'
+- text: "QQ:961403901"
   href: 'https://github.com/NewFuture'
-  icon: "icons/github.svg"
+  icon: "icons/qq.svg"
   attr: 'target="_blank"' #新标签页打开
   # - text: "地址"
   #   icon: "icons/location.svg"
@@ -39,13 +39,12 @@ main: #简历主要内容，
 - type: skills
   # name: "技能"
   content:
-  - title: 编程语言
+  - title: python、shell、C/C++
     items: #itmems 可以小块的方式显示
     - 汉语
     - 语言2
     - 语言3
-  - title: Skill Group
-    summary: Consectetur, Adipiscing, Elit
+ 
 
 - type: experience
   name: 经验
