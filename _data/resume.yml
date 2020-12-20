@@ -44,7 +44,7 @@ main: #简历主要内容，
     - Python
     - Shell
     - C/C++
-   - title: 机器学习工具
+  - title: 机器学习工具
     items: #itmems 可以小块的方式显示
     - TensorFlow
     - PyTorch
