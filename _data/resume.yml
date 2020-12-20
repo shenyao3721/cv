@@ -59,7 +59,7 @@ main: #简历主要内容，
     tags:
     - 声纹、唤醒、异常声、模型压缩
     summary: 语音算法人工智能小组负责人
-    detail: 
+    detail: 主要负责abc
     # open: open
     #可以设置open默认展开
   - title: 语音算法工程师
