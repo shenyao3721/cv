@@ -15,10 +15,10 @@ contact: #联系方式连接等3~5行
 - text: "13810748776"
   href: 'tel:1234567890'
   icon: 'icons/phone.svg'
-- text: "weixin:puppet-nine"
+- text: "puppet-nine"
   href: 'http://your-website.com'
   icon: 'icons/weixin.svg'
-- text: "QQ:961403901"
+- text: "961403901"
   href: 'https://github.com/NewFuture'
   icon: "icons/qq.svg"
   attr: 'target="_blank"' #新标签页打开
@@ -30,28 +30,28 @@ main: #简历主要内容，
 - type: education #类别为ID
   name: 教育 #显示名称，空则使用type
   content: #内容基本格式 标题-副标题-日期-详细内容 (都允许空)
-  - title: 北京首都医科大学
+  - title: 首都医科大学
     duration: "2008年9月 - 2015年7月"
-    sub: 硕士学位
-    detail: 七年临床专业
+    sub: 北京
+    detail: 七年临床专业硕士研究生学位
 
 
-- type: skills
+- type: 技能
   # name: "技能"
   content:
-  - title: python、shell、C/C++
+  - title: 编程语言
     items: #itmems 可以小块的方式显示
-    - 汉语
-    - 语言2
-    - 语言3
+    - Python
+    - Shell
+    - C/C++
  
 
 - type: experience
   name: 经验
   content:
-  - title: 职位
-    sub: 某某公司
-    duration: "xxxx年xx月 - yyyy年yy月"
+  - title: 语音算法工程师
+    sub: 北京时代拓灵科技有限公司
+    duration: "2016年10月 - 2019年2月"
     tags:
     - 标签
     summary: 职务或者工作总结(自动折叠)
