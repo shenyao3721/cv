@@ -9,10 +9,10 @@ photo: "assets/img/photo.jpg" #照片可空，不显示
 
 #联系方式
 contact: #联系方式连接等3~5行
-- text: "youremail@example.com" #文本内容
+- text: "shenyao3721@163.com" #文本内容
   href: 'mailto:youremail@example.com' #链接，无链接则空  
   icon: 'icons/email.svg' #图标 svg文件
-- text: "1234567890"
+- text: "13810748776"
   href: 'tel:1234567890'
   icon: 'icons/phone.svg'
 - text: "your-website.com"
