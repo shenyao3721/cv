@@ -17,7 +17,7 @@ contact: #联系方式连接等3~5行
   icon: 'icons/phone.svg'
 - text: "puppet-nine"
   href: 'http://your-website.com'
-  icon: 'icons/wx2.png'
+  icon: 'assets/img/01.jpg'
 - text: "961403901"
   href: 'https://github.com/NewFuture'
   icon: "icons/email.svg"
