@@ -78,9 +78,9 @@ main: #简历主要内容，
     detail: 初期使用传统模式GMM-HMM，基于pocketsphinx框架进行改进，在asr模型上进行adaptation，通过清洗数据、调整参数使唤醒效果最优（唤醒率、误唤醒率）；后期使用神经网络（tensorflow），多次调整网络结构、筛选训练数据后，效果已优于传统模式，目前已陆续尝试了CNN、dsCNN、LSTM、GRU等多种模型，之后打算尝试GAN；协助移植；模型压缩，对神经网络模型进行8bit量化（效果很好），尝试三值化（效果不好）
     sub: 主导人
   - title: 声纹识别
-    duration: xxxx年xx月 - yyyy年yy月
+    duration: 2018年 - 2019年2月
     detail: 项目和工作介绍，项目总结.
-    sub: 维护者
+    sub: 主导人
   - title: 说话人分割
     duration: xxxx年xx月 - yyyy年yy月
     detail: 项目和工作介绍，项目总结.
@@ -88,7 +88,7 @@ main: #简历主要内容，
   - title: 异常声检测
     duration: xxxx年xx月 - yyyy年yy月
     detail: 项目和工作介绍，项目总结.
-    sub: 维护者
+    sub: 主导人
   - title: 语音识别语言模型训练
     duration: xxxx年xx月 - yyyy年yy月
     detail: 项目和工作介绍，项目总结.
