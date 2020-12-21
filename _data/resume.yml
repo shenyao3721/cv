@@ -82,11 +82,11 @@ main: #简历主要内容，
     duration: 2018年 - 2019年2月
     detail: 项目和工作介绍，项目总结.
     sub: 主导人
-  - title: 说话人分割
+  - title: 异常声检测
     duration: xxxx年xx月 - yyyy年yy月
     detail: 项目和工作介绍，项目总结.
     sub: 维护者
-  - title: 异常声检测
+  - title: 说话人分割
     duration: xxxx年xx月 - yyyy年yy月
     detail: 项目和工作介绍，项目总结.
     sub: 主导人
@@ -109,9 +109,9 @@ others: #其他列表显示
     text: "列表项二"
   - title: "兴趣:"
     items: #单行列表
-    - 睡觉
-    - 吃饭
-    - 打豆豆
+    - 乒乓球
+    - 足球
+    - 轮滑
     - coding
   - title: 列表
     list:
