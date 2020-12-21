@@ -15,7 +15,7 @@ contact: #联系方式连接等3~5行
 - text: "13810748776"
   href: 'tel:1234567890'
   icon: 'icons/phone.svg'
-- text: "puppet-nine"
+- text: "shenyao_3721"
   href: 'http://your-website.com'
   icon: 'icons/weixin24.svg'
 - text: "961403901"
@@ -80,23 +80,23 @@ main: #简历主要内容，
     sub: 主导人
   - title: 声纹识别
     duration: 2018年 - 2019年2月
-    detail: 项目和工作介绍，项目总结.
+    detail:  初期尝试了kaldi sre10 ivector的效果；之后使用alize 传统的GMM-UBM的方式，反复调试，最终在文本相关的短语音识别上达到了很好的效果（FRR、FAR、EER），并使用过alize的ivector、JFA、PLDA；后面转用神经网络，使用dvector，尝试使用各种网络、cosface、triplet loss、PLDA等，目前能达到比较好的效果，尤其是非文本相关的长语音；采集手机录音数据，训练防手机录音模型，加入到声纹识别中。目前声纹识别还存在一些问题，最主要的是信道鲁棒性，还正在设法解决中，下一步会尝试multitask。
     sub: 主导人
   - title: 异常声检测
-    duration: xxxx年xx月 - yyyy年yy月
-    detail: 项目和工作介绍，项目总结.
+    duration: 2017年 - 2018年
+    detail: 开始做过基于机器学习的汽车鸣笛检测、无人机声音检测，不过后面项目由于各种原因搁置了，模型也就未在进一步优化；后面做过尖叫、枪声、砸玻璃、砸银行ATM机等的异常声检测，过程包括写爬虫爬取音频数据、数据筛选处理、模型搭建并训练、调试等，目前项目正在推进中，会根据实际需求进行改进。
     sub: 维护者
   - title: 说话人分割
-    duration: xxxx年xx月 - yyyy年yy月
+    duration: 2019年 - 2020年10月
     detail: 项目和工作介绍，项目总结.
     sub: 主导人
   - title: 语音识别语言模型训练
     duration: xxxx年xx月 - yyyy年yy月
-    detail: 项目和工作介绍，项目总结.
+    detail: 基于kaldi中的相关工具，进行ASR的语言模型的训练，最终合成HCLG。所做工作包括词频统计、整理筛选词典、文本清洗正则化、分词、语言模型训练等，还包括了专用领域文本爬取、词典生成、模型训练。文本整理过程中还有中文和英文的词转音素（G2P）、多音字爬取、拼音/音标转音素等工作。并参加了国家互联网安全中心组织的音转字、声纹的比赛。
     sub: 维护者
   - title: 麦克风阵列定位/波束成形算法
-    duration: xxxx年xx月 - yyyy年yy月
-    detail: 项目和工作介绍，项目总结.
+    duration: 2019年2月 - 至今
+    detail: 参考ODAS，基于公司的麦克风阵列（7mic环阵）研发定点化的定位算法。声源定位主要涉及到对GCC-PHAT、FFT的定点化。后续还加入了beamforming，beamforming尝试了delay-sum、MVDR、CGMM-MVDR三种算法，考虑到实时性选择了前两个，并进行定点化，其中MVDR定点化比较困难，尤其是矩阵求逆，后面采用了一些小技巧解决了这个问题。目前项目已基本完成，后续可能还会加入ANS、AEC、SST或声成像等相关算法。
     sub: 维护者
 
 #others 其他简略内容(列表)
@@ -104,19 +104,19 @@ others: #其他列表显示
 - type: others #ID可以为空
   name: '其他'
   content: #选择需要的格式
-  - 单行文字
-  - title: "加粗:"
-    text: "列表项二"
+  #- 单行文字
+  #- title: "加粗:"
+  #  text: "列表项二"
   - title: "兴趣:"
     items: #单行列表
     - 乒乓球
     - 足球
     - 轮滑
     - coding
-  - title: 列表
-    list:
-    - 第一项
-    - 第二项
+  #- title: 列表
+  #  list:
+  #  - 第一项
+  #  - 第二项
 #- type: 
 #  name: '其他'
 #  content: #选择需要的格式
