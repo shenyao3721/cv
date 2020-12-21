@@ -20,7 +20,7 @@ contact: #联系方式连接等3~5行
   icon: 'icons/weixin24.svg'
 - text: "961403901"
   href: 'https://github.com/NewFuture'
-  icon: "icons/wx2.svg"
+  icon: "icons/qq24.svg"
   attr: 'target="_blank"' #新标签页打开
   # - text: "地址"
   #   icon: "icons/location.svg"
