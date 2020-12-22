@@ -74,9 +74,9 @@ main: #简历主要内容，
 - type: projects
   name: 项目经验
   content:
-  - title: 语音唤醒
+  - title: 语音唤醒+模型压缩
     duration: 2017年 - 2018年
-    detail: 初期使用传统模式GMM-HMM，基于pocketsphinx框架进行改进，在asr模型上进行adaptation，通过清洗数据、调整参数使唤醒效果最优（唤醒率、误唤醒率）；后期使用神经网络（tensorflow），多次调整网络结构、筛选训练数据后，效果已优于传统模式，目前已陆续尝试了CNN、dsCNN、LSTM、GRU等多种模型，之后打算尝试GAN；协助移植；模型压缩，对神经网络模型进行8bit量化（效果很好），尝试三值化（效果不好）
+    detail: 传统方法和深度学习(DL)两种方法。传统方法基于GMM-HMM，在ASR大模型上进行自适应，进行数据增强(加/降噪、加/去混响、改变音量/语速等)、调参使模型EER达到2%以下；DL基于TensorFlow，尝试CNN、dsCNN、LSTM、BiLSTM、GRU、BiGRU等不同网络，优化后效果优于传统方法；对dsCNN版本模型进行量化压缩，其中8bit量化(定点)压缩，模型大小压缩4~5倍，运算速度大幅度提升，之后还尝试了三值化、二值化量化，准确率有所下降。
     sub: 主导人
   - title: 声纹识别
     duration: 2018年 - 2019年2月
@@ -91,12 +91,16 @@ main: #简历主要内容，
     detail: 项目和工作介绍，项目总结.
     sub: 主导人
   - title: 语音识别语言模型训练
-    duration: xxxx年xx月 - yyyy年yy月
+    duration: 2019年 - 2020年10月
     detail: 基于kaldi中的相关工具，进行ASR的语言模型的训练，最终合成HCLG。所做工作包括词频统计、整理筛选词典、文本清洗正则化、分词、语言模型训练等，还包括了专用领域文本爬取、词典生成、模型训练。文本整理过程中还有中文和英文的词转音素（G2P）、多音字爬取、拼音/音标转音素等工作。并参加了国家互联网安全中心组织的音转字、声纹的比赛。
     sub: 维护者
   - title: 麦克风阵列定位/波束成形算法
     duration: 2019年2月 - 至今
     detail: 参考ODAS，基于公司的麦克风阵列（7mic环阵）研发定点化的定位算法。声源定位主要涉及到对GCC-PHAT、FFT的定点化。后续还加入了beamforming，beamforming尝试了delay-sum、MVDR、CGMM-MVDR三种算法，考虑到实时性选择了前两个，并进行定点化，其中MVDR定点化比较困难，尤其是矩阵求逆，后面采用了一些小技巧解决了这个问题。目前项目已基本完成，后续可能还会加入ANS、AEC、SST或声成像等相关算法。
+    sub: 维护者
+  - title: 声成像
+    duration: 2019年11月 - 至今
+    detail: 
     sub: 维护者
 
 #others 其他简略内容(列表)
