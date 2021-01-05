@@ -89,7 +89,8 @@ main: #简历主要内容，
     sub: 主导人
   - title: 说话人分割
     duration: 2019年 - 2020年10月
-    detail: 项目和工作介绍，项目总结.
+    detail: 基于xvector的声纹模型搭建的说话人分割系统，负责完成评测工具，除了kaldi计算DER的功能，还需可以统计说话人时长、生成TextGrid。 基于PLDA打分后的说话人聚类，测试不同聚类方法(k-mean、H)，改进聚类方法，
+使聚类效果最优(2个说话人DER低于14%)
     sub: 主导人
   - title: 语音识别语言模型训练
     duration: 2019年 - 2020年10月
@@ -98,11 +99,7 @@ main: #简历主要内容，
   - title: 麦克风阵列定位/波束成形算法
     duration: 2019年2月 - 至今
     detail: 基于8麦环阵研发定点化的定位算法。声源定位(DOA)主要涉及到对相应算法GCC-PHAT、FFT的定点化。后续实现beamforming，beamforming实现了delay-sum、MVDR的定点化和CGMM-MVDR、GSC浮点算法，支持动态方向和固定方向beamforming
-    sub: 维护者
-  - title: 声成像
-    duration: 2019年11月 - 至今
-    detail: 
-    sub: 维护者
+    sub: 主导人
 
 #others 其他简略内容(列表)
 others: #其他列表显示
@@ -118,7 +115,7 @@ others: #其他列表显示
     - 足球
     - 轮滑
     - coding
-  #- title: 列表
+  #- title: 列表 
   #  list:
   #  - 第一项
   #  - 第二项
