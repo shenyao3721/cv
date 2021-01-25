@@ -81,7 +81,7 @@ main: #简历主要内容，
     sub: 主导人
   - title: 声纹识别
     duration: 2018年 - 2019年2月
-    detail:  传统方法基于GMM-UBM，结合JFA、PLDA等，对文本相关的声纹识别和短语音上能达到较好的效果，适用于训练数据较少的应用场景。尝试过kaldi的ivector。机器学习方法参考Variani的论文，使用dvector，结合cosface、triplet loss和PLDA等，EER能降低到0.5%以下(非文本相关5秒音频)。采集/模拟手机录音数据，增加声纹防手机录音模型。最后还尝试多任务学习(声纹+语音识别)和文本提示声纹识别模型(动态验证码)
+    detail:  传统方法基于GMM-UBM，结合PLDA等，对文本相关的声纹识别和短语音上能达到较好的效果，适用于训练数据较少的应用场景。尝试过kaldi的ivector。机器学习方法参考Variani的论文，使用dvector，结合cosface、triplet loss和PLDA等，EER能降低到0.5%以下(非文本相关5秒音频)。采集/模拟手机录音数据，增加声纹防手机录音模型。最后还尝试多任务学习(声纹+语音识别)和文本提示声纹识别模型(动态验证码)
     sub: 主导人
   - title: 异常声检测
     duration: 2017年 - 2018年
@@ -97,7 +97,7 @@ main: #简历主要内容，
     sub: 主要研发成员
   - title: 麦克风阵列定位/波束成形算法
     duration: 2019年2月 - 至今
-    detail: 基于8麦环阵研发定点化的定位算法。声源定位(DOA)主要涉及到对相应算法GCC-PHAT、FFT的定点化。后续实现beamforming，beamforming实现了delay-sum、MVDR的定点化和CGMM-MVDR、GSC浮点算法，支持动态方向和固定方向beamforming
+    detail: 基于8麦环阵研发定点化的定位算法。声源定位(DOA)主要涉及到对相应算法GCC-PHAT、FFT的定点化。后续实现beamforming，beamforming实现了delay-sum、MVDR的定点化和GSC浮点算法，支持动态方向和固定方向beamforming。在STM32H743上实现8路GSC算法，优化算法内存、复杂度，达到实时性。
     sub: 主导人
 
 #others 其他简略内容(列表)
