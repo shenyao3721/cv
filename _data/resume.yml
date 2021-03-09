@@ -44,6 +44,7 @@ main: #简历主要内容，
     - Python
     - Shell
     - C/C++
+    - 汇编
   - title: 机器学习工具
     items: #itmems 可以小块的方式显示
     - TensorFlow
@@ -97,7 +98,7 @@ main: #简历主要内容，
     sub: 主要研发成员
   - title: 麦克风阵列定位/波束成形算法
     duration: 2019年2月 - 至今
-    detail: 基于8麦环阵研发定点化的定位算法。声源定位(DOA)主要涉及到对相应算法GCC-PHAT、FFT的定点化。后续实现beamforming，beamforming实现了delay-sum、MVDR的定点化和GSC浮点算法，支持动态方向和固定方向beamforming。在STM32H743上实现8路GSC算法，优化算法内存、复杂度，达到实时性。
+    detail: 基于8麦环阵研发定点化的定位算法。声源定位(DOA)主要涉及到对相应算法GCC-PHAT、FFT的定点化。后续实现beamforming，beamforming实现了delay-sum、MVDR的定点化和GSC浮点算法，支持动态方向和固定方向beamforming。在STM32H743上实现8路GSC算法，优化算法内存、复杂度，包括改写算法、CMSIS标准库函数替换、循环扩展、ARM汇编实现部分函数功能等，力求达到实时性(目前程序运行速度已提高5倍左右)。
     sub: 主导人
 
 #others 其他简略内容(列表)
