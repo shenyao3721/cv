@@ -10,16 +10,16 @@ photo: "assets/img/01.jpg" #照片可空，不显示
 #联系方式
 contact: #联系方式连接等3~5行
 - text: "shenyao3721@163.com" #文本内容
-  href: 'mailto:youremail@example.com' #链接，无链接则空  
+  #href: 'mailto:youremail@example.com' #链接，无链接则空  
   icon: 'icons/email.svg' #图标 svg文件
 - text: "13810748776"
-  href: 'tel:1234567890'
+  #href: 'tel:1234567890'
   icon: 'icons/phone.svg'
 - text: "shenyao_3721"
-  href: 'http://your-website.com'
+  #href: 'http://your-website.com'
   icon: 'icons/weixin24.svg'
 - text: "961403901"
-  href: 'https://github.com/NewFuture'
+  #href: 'https://github.com/NewFuture'
   icon: "icons/qq24.svg"
   attr: 'target="_blank"' #新标签页打开
   # - text: "地址"
